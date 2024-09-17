@@ -1,10 +1,7 @@
-import 'dart:io';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/services.dart';
 // import 'package:flutter_archive/flutter_archive.dart';
 // import 'package:heyfrance/viewmodel/extensions/string_ext.dart';
 // import 'package:heyfrance/viewmodel/helper/dio/dio_helper.dart';
-// import 'package:heyfrance/viewmodel/helper/global_helper.dart';
 // import 'package:heyfrance/viewmodel/helper/preference_helper.dart';
 // import 'package:heyfrance/viewmodel/helper/screen_info.dart';
 // import 'package:in_app_review/in_app_review.dart';

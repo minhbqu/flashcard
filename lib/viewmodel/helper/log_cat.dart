@@ -1,6 +1,6 @@
 class Log {
   static d(String text) {
-    print("log_test: $text");
+    // print("log_test: $text");
   }
 
   static all(String text) {

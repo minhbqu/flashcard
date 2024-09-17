@@ -6,11 +6,10 @@ class BounceWidget extends StatefulWidget {
   final double scale;
 
   const BounceWidget(
-      {required this.child, Key? key, this.onPress, this.scale = 0.96})
-      : super(key: key);
+      {required this.child, super.key, this.onPress, this.scale = 0.96});
 
   @override
-  _BounceState createState() => _BounceState();
+  State<BounceWidget> createState() => _BounceState();
 }
 
 class _BounceState extends State<BounceWidget>

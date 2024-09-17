@@ -15,7 +15,7 @@ class BasePage extends StatefulWidget {
 
 class BasePageState<T extends BasePage> extends State<T> {
   // late LanguageHelper _languageHelper;
-  late String _languageApp;
+  // late String _languageApp;
   late bool _isNightMode;
 
   late EventHelper eventHelper;
@@ -43,7 +43,7 @@ class BasePageState<T extends BasePage> extends State<T> {
   // }
 
   _updateLanguage() {
-    _languageApp = preferenceHelper.languageApp;
+    // _languageApp = preferenceHelper.languageApp;
     // _languageHelper = LanguageHelper(_languageApp);
   }
   Color theme(Color day, Color night, {bool? isNightMode}) {
